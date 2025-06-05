@@ -1,0 +1,17 @@
+.portfolio__title{
+    font-size: 65px;
+    margin: 50px;
+}
+
+.portfolio__foto{
+    margin: 50px;
+    gap: 30px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, auto);
+}
+
+.work__foto{
+    display: block;
+    width: 335px;
+}

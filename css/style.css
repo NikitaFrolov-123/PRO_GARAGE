@@ -1,0 +1,9 @@
+@import '/css/_reset.css';
+
+@import '/css/_header.css';
+@import '/css/_home.css';
+@import '/css/_about.css';
+@import '/css/_services.css';
+@import '/css/_potfolio.css';
+
+@import '/css/_footer.css';

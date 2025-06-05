@@ -1,0 +1,21 @@
+.header__inner{
+    background-color: #181818;
+    display: flex;
+    align-items: center;
+}
+
+.header__list{
+    display: flex;
+    font-size: 35px;
+    align-items: center;
+    gap: 180px;
+}
+
+.header__link{
+    color: #ffffff;
+}
+
+.site__logo{
+    margin: 25px 150px;
+}
+

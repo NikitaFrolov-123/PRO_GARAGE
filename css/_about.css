@@ -1,0 +1,32 @@
+.about{
+    display: flex;
+    background: #f5f5f5;
+}
+
+.about__name{
+    display: flex;
+    margin: 100px 90px;
+    gap: 100px;
+    align-items: center;
+}
+
+.about__title{
+    font-size: 65px;
+    color: #000000;
+    font-weight: 500;
+}
+
+.logo__3d{
+    width: 300px;
+}
+
+.about__text{
+    width: 740px;
+    font-size: 25px;
+    margin: 50px 100px;
+}
+
+.video__about{
+    margin-top: 130px;
+
+}

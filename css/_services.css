@@ -1,0 +1,86 @@
+.services__container {
+    position: relative;
+    padding: 35px;
+    z-index: 1;
+}
+
+.services__container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url(/images/fon/fon__services.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.9;
+    z-index: -1;
+}
+
+.services__title {
+    display: flex;
+    color: #ffffff;
+    font-size: 65px;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0px;
+}
+
+.services__swiper {
+  position: relative;
+  display: flex;
+  gap: 15px;
+}
+
+.swiper__foto{
+    width: 500px;
+    display: block;
+}
+
+.swiper__text{
+    color: #ffffff;
+    font-size: 25px;
+    background-color: rgba(4, 124, 255, 0.85);
+    padding: 8px;
+    position: absolute;
+    bottom: 60px;
+    width: 300px;
+}
+
+.services__subtitle{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 35px;
+}
+
+.services__foto{
+    width: 450px;
+}
+  
+.services__info{
+    margin-top: 70px;
+    display: flex;
+    color: #ffffff;
+    align-items: center;
+    justify-content: center;
+}
+
+.services__num{
+    margin-top: 30px;
+    font-size: 60px;
+}
+
+.services__text{
+    margin-top: 25px;
+    font-size: 25px;
+}
+
+.services__content{
+    width: 750px;
+    margin-left: 200px;
+}
