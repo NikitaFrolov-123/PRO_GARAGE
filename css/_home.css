@@ -5,6 +5,10 @@
     height: 100vh;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .home__container{
     background-image: url(../images/fon/fon__home.png);
     background-size: cover;

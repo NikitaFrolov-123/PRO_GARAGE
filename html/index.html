@@ -26,19 +26,19 @@
                 <nav class="header__nav">
                     <ul class="header__list">
                         <li>
-                            <a class="header__link" href="#">Главная</a>
+                            <button class="header__link" data-target="home__section">Главная</button>
                         </li>
                         <li>
-                            <a class="header__link" href="#">О нас</a>
+                            <button class="header__link" data-target="about__section">О нас</button>
                         </li>
                         <li>
-                            <a class="header__link" href="#">Услуги</a>
+                            <button class="header__link" data-target="services__section">Услуги</button>
                         </li>
                         <li>
-                            <a class="header__link" href="#">Портфолио</a>
+                            <button class="header__link" data-target="portfolio__section">Портфолио</button>
                         </li>
                         <li>
-                            <img class="header__link" src="../images/logo/user.png" href="#">
+                            <button class="header__link" data-target="appointment__section">Запись</button>
                         </li>
                     </ul>
                 </nav>
@@ -46,7 +46,7 @@
         </div>
     </header>
 
-    <section class="home__container">
+    <section class="home__container" id="home__section">
         <div class="title">
             <h1 class="home__title">Услуги детейлинга</h1>
         </div>
@@ -60,7 +60,7 @@
         </div>
     </section>
 
-    <section class="about__container">
+    <section class="about__container" id="about__section">
         <div class="about">
             <div class="about__info">
                 <div class="about__name">
@@ -83,35 +83,39 @@
         </div>
     </section>
 
-    <section class="services__container">
-        <div class="services">
-            <h1 class="services__title">Услуги</h1>
-            <div class="services__swiper">
-                <div class="swiper__slide">
-                    <img class="swiper__foto" src="../images/slide/fon__slide.png">
-                    <p class="swiper__text">Автостекла: установка и ремонт</p>
-                </div>
-                <div class="swiper__slide">
-                    <img class="swiper__foto" src="../images/slide/fon__slide2.png">
-                    <p class="swiper__text">Тонировка</p>
-                </div>
-                <div class="swiper__slide">
-                    <img class="swiper__foto" src="../images/slide/fon__slide3.png">
-                    <p class="swiper__text">Детейлинг химчистка</p>
-                </div>
-                <div class="swiper__slide">
-                    <img class="swiper__foto" src="../images/slide/fon__slide4.png">
-                    <p class="swiper__text">Полировка и бронирование лкп</p>
-                </div>
-                <div class="swiper__slide">
-                    <img class="swiper__foto" src="../images/slide/fon__slide5.png">
-                    <p class="swiper__text">Нанесение защитных покрытий</p>
-                </div>
-                <div class="swiper__slide">
-                    <img class="swiper__foto" src="../images/slide/fon__slide6.png">
-                    <p class="swiper__text">Шумоизоляция</p>
+    <section class="services__container" id="services__section">
+
+            <h2 class="services__title">Услуги</h2>
+            <div class="services__swiper swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img class="swiper__foto" src="../images/slide/fon__slide.png" alt="">
+                        <p class="swiper__text">Автостекла: установка и ремонт</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="swiper__foto" src="../images/slide/fon__slide2.png" alt="">
+                        <p class="swiper__text">Тонировка</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="swiper__foto" src="../images/slide/fon__slide3.png" alt="">
+                        <p class="swiper__text">Детейлинг химчистка</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="swiper__foto" src="../images/slide/fon__slide4.png" alt="">
+                        <p class="swiper__text">Полировка и бронирование лкп</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="swiper__foto" src="../images/slide/fon__slide5.png" alt="">
+                        <p class="swiper__text">Нанесение защитных покрытий</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="swiper__foto" src="../images/slide/fon__slide6.png" alt="">
+                        <p class="swiper__text">Шумоизоляция</p>
+                    </div>
                 </div>
             </div>
+
+
 
             <div class="services__card">
                 <ul class="services__list">
@@ -237,7 +241,7 @@
         </div>
     </section>
 
-    <section class="portfolio__container">
+    <section class="portfolio__container" id="portfolio__section">
         <h1 class="portfolio__title">Портфолио</h1>
         <div class="portfolio__foto">
             <img src="../images/portfolio/portfolio1.png" class="work__foto">
@@ -252,55 +256,83 @@
             <img src="../images/portfolio/portfolio10.png" class="work__foto">
         </div>
     </section>
+    
+    
+    <section id="appointment__section">
+        <div class="appointment__container">
+           <div class="appointment">
+            <h1 class="appointment__title">Записаться</h1>
+            <form id="appointment__choice">
+                <select class="appointment__input" id="service" required>
+                    <option value="" disabled selected>Выберите услугу</option>
+                    <option value="consultation">Автостекла: установка и ремонт</option>
+                    <option value="treatment">Тонировка</option>
+                    <option value="diagnostics">Детейлинг химчистка</option>
+                    <option value="treatment">Полировка и бронирование ЛКП</option>
+                    <option value="diagnostics">Нанесение защитных покрытий</option>
+                    <option value="diagnostics">Шумоизоляция</option>
+                </select>
+                <input
+                type="date"
+                class="appointment__input"
+                id="date"
+                placeholder="Выберите дату"
+                required>
+                <input
+                type="email"
+                class="appointment__input"
+                id="email"
+                placeholder="Почта"
+                required>
+                <button type="submit" class="appointment__button">ОТПРАВИТЬ ЗАЯВКУ</button>
+            </form>
+        </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+            <div class="baner" controls autoplay loop>
+                <img src="../video/baner.gif">
+            </div>
+        </div>
+    </section>
 
     <footer class="footer">
-        <div class="footer__left">
-            <img class="footer__logo" src="/images/logo/site-logo-white.svg" width="157px" height="100px" alt="FrolikFoto">
-            <div class="footer__info">
-                <p class="footer__text"> ИП Фролов Никита Александрович</p>
-                <p class="footer__text"> ОГРНИП: 783955822674 </p>
-                <p class="footer__text"> ИНН: 299475025802</p>
-                <p class="footer__text">Адрес: г. Москва, Ленинский проспект, 60/2 </p>
-                <p class="footer__text">Телефон: +7 (499)-272-74-40</p>
-            </div>
-        </div>
+            <img src="../images/logo/logo.png" class="footer__logo">
 
-        <button class="footer__center">
-            <h2 class="footer__report">Отчёт</h2>
-        </button>
-
-        <div class="footer__right">
-            <div class="contact__icons">
-                <p class="footer__svyaz">Связь:</p>
-                <a  class="icons" href="https://web.telegram.org/k/#@Nisitofr"><img class="footer__img" src="/images/logo/telegram.svg" alt="Telegram"></a>
-                <a class="icons" href="https://web.whatsapp.com/"><img class="footer__img" src="/images/logo/whatsapp.svg" alt="Whatsapp"></a>
-                <a class="icons" href="https://vk.com/id765077167"><img class="footer__img" src="/images/logo/VK.svg" alt="VKontakte"></a>
+        <div class="footer__info">
+            <div class="footer__left">
+                <h1 class="footer__title">РЕЖИМ РАБОТЫ</h1>
+                <p class="date__time">Пн - Сб: 09:00 – 19:00</p>
+                <p class="date__time">Вс: Выходной</p>
             </div>
-                <div class="footer__number">
-                    <p class="footer__contact__number">+7 (499)-747-47-47</p>
+            
+            <div class="footer__center">
+                <h1 class="footer__title">НАШЕ МЕСТОПОЛОЖЕНИЕ</h1>
+                <div class="adres__container">
+                    <img src="../images/logo/adres.svg" class="adres__logo">
+                    <p class="adres">ул. Коммуны, 3А, Белореченск</p>
+                </div>
+                <div class="email__container">
+                    <img src="../images/logo/email.svg" class="email__logo">
+                    <p class="email">PRO_GARAGE@gmail.com</p>
+                </div>
+                <div class="number__container">
+                    <img src="../images/logo/number.svg" class="number__logo">
+                    <P class="number">+7 (989) 198-38-38</P>
                 </div>
             </div>
-        </div>
+            
+            <div class="footer__right">
+                <h1 class="footer__title">СЛЕДИТЕ ЗА НАМИ</h1>
+                <div class="right__logo">
+                    <a class="telegram" href="#"><img src="../images/logo/telegram.svg" class="telegram"></a>
+                    <a class="VK" href="#"><img src="../images/logo/VK.svg" class="VK"></a>
+                    <a class="whatsapp" href="#"><img src="../images/logo/whatsapp.svg" class="whatsapp"></a>
+                </div>
+            </div>
+        </div>  
     </footer>
+
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    <script src="/js/index.js"></script>
+    <script src="../js/index.js"></script>
+    <script src="../js/appointment.js"></script>
 </body>
 </html>

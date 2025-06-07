@@ -1,183 +1,89 @@
-.footer {
-    display: flex;
-    background-color: #282828;
-    color: #9A9A9A;
+.footer{
     margin-top: 50px;
+    background-color: #262626;
+    padding: 30px 100px;
 }
 
 .footer__logo{
-    width: 250px;
+    width: 90px;
+    margin-bottom: 20px;
 }
 
-.footer__left {
+.footer__info{
     display: flex;
-    margin-top: 25px;
-    margin-left: 42px;
+    color: #8A8A8A;
+    gap: 315px;
 }
 
-.footer__info {    
+.footer__title{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.footer__left{
+    width: 300px;
+}
+
+.date__time{
+    margin-bottom: 30px;
+    font-size: 25px;
+}
+
+.adres__container{
     display: flex;
-    flex-direction: column;
-    font-size: 20px;
-    margin-left: 150px;
-    width: 480px;
-    margin-bottom: 25px;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 30px;
 }
 
-.footer__center {
-    margin-left: 201px;
+.adres__logo{
+    width: 40px;
 }
 
-.footer__report{
-    color: #9A9A9A;
-    margin-top: 10px;
+.adres{
+    font-size: 25px;
 }
 
-.footer__right {
-    margin-top: 40px;
-    font-size: 32px;
-    margin-left: 348px;
-}
-
-.contact__icons {
-    gap: 10px;
+.email__container{
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 30px;
 }
 
-.footer__contact__number{
-    margin-top: 10px;
+.email__logo{
+   width: 40px; 
 }
 
-@media (max-width: 1200px){
-    .footer{
-        margin-top: 10px;
-    }
-    .footer__left{
-        width: 600px;
-    }
-    .footer__logo{
-        width: 150px;
-    }
-    .footer__info{
-        margin-left: 40px;
-    }
-    .footer__text{
-        font-size: 16px;
-        width: 350px;
-    }
-    .footer__center{
-        margin-left: 35px;
-    }
-    .footer__svyaz{
-        font-size: 28px;
-    }
-    .footer__contact__number{
-        font-size: 24px;
-    }
-    .footer__right{
-        margin-left: 65px;
-    }
-    .footer__img{
-        width: 38px;
-    }
+.email{
+    font-size: 25px;
 }
 
-@media (max-width: 960px){
-    .footer{
-        margin-top: 10px;
-    }
-    .footer__left{
-        width: 400px;
-    }
-    .footer__logo{
-        width: 150px;
-    }
-    .footer__info{
-        margin-left: 40px;
-    }
-    .footer__text{
-        font-size: 14px;
-        width: 270px;
-    }
-    .footer__center{
-        margin-left: 8%;
-    }
-    .footer__svyaz{
-        font-size: 24px;
-    }
-    .footer__contact__number{
-        font-size: 22px;
-    }
-    .footer__right{
-        margin-left: 80px;
-    }
-    .footer__img{
-        width: 35px;
-    }
+.number__container{
+    display: flex;
+    align-items: center;
+    gap: 15px;
 }
 
-@media (max-width: 767px){
-    .footer {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-    .footer__left {
-        flex-direction: column;
-        align-items: center;
-        margin-left: 0;
-        width: 100%;
-    }
-    .footer__info {
-        margin-left: 0;
-        width: 90%;
-        margin-top: 20px;
-    }
-    .footer__text {
-        font-size: 14px;
-        width: 100%;
-        margin: 5px 0;
-    }
-    .footer__center {
-        margin: 15px 0;
-    }
-    .footer__right {
-        margin-left: 0;
-        margin-top: 15px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .contact__icons {
-        gap: 15px;
-        margin-bottom: 10px;
-    }
-    .footer__svyaz {
-        font-size: 20px;
-    }
-    .footer__contact__number {
-        font-size: 18px;
-    }
+.number__logo{
+    width: 40px;
 }
 
-@media (max-width: 480px){
-    .footer__logo {
-        width: 120px;
-    }
-    .footer__text {
-        font-size: 12px;
-    }
-    .footer__report {
-        font-size: 18px;
-    }
-    .footer__svyaz {
-        font-size: 18px;
-    }
-    .footer__contact__number {
-        font-size: 16px;
-    }
-    .footer__img {
-        width: 30px;
-    }
+.number{
+    font-size: 25px;
+}
+
+.telegram{
+    width: 50px;
+
+}
+
+.VK{
+    width: 40px;
+    margin-left: 20px;
+}
+
+.whatsapp{
+    width: 40px;
+    margin-left: 20px;
 }
