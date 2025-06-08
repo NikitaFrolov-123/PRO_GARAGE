@@ -18,7 +18,6 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 });
 
-
 document.querySelectorAll('.header__link').forEach(button => {
   button.addEventListener('click', () => {
     const targetId = button.getAttribute('data-target');
@@ -28,3 +27,5 @@ document.querySelectorAll('.header__link').forEach(button => {
     }
   });
 });
+
+
