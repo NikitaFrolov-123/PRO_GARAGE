@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
       delay: 2000,
       disableOnInteraction: false,
     },
-    slidesPerView: 3,
+    slidesPerView: 1,
     spaceBetween: 10,
     navigation: {
       nextEl: '.swiper-button-next',
@@ -15,6 +15,16 @@ document.addEventListener('DOMContentLoaded', function() {
       el: '.swiper-pagination',
       clickable: true,
     },
+    breakpoints: {
+      612: {
+        slidesPerView: 3,
+        spaceBetween: 5,
+      },
+      468: {
+        slidesPerView: 2,
+        spaceBetween: 5,
+      }
+    }
   });
 });
 
