@@ -331,7 +331,7 @@
     }
 }
 
-@media (max-width: 375px){
+@media (max-width: 380px){
     .services__subtitle{
         font-size: 16px;
     }
