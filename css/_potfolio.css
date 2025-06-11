@@ -55,7 +55,7 @@
     .portfolio__foto {
         margin: 15px 10px;
         gap: 10px;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(4, 1fr);
     }
 }
 
@@ -97,7 +97,6 @@
     .portfolio__foto {
         margin: 8px 4px;
         gap: 4px;
-        grid-template-columns: 1fr;
     }
 
     .work__foto {
