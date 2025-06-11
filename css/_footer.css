@@ -87,3 +87,401 @@
     width: 40px;
     margin-left: 20px;
 }
+
+
+
+@media (max-width: 1200px) {
+    .footer__logo{
+        width: 80px;
+        margin-bottom: 18px;
+    }
+
+    .footer__info{
+        gap: 150px;
+    }
+
+    .footer__title{
+        font-size: 22px;
+        margin-bottom: 26px;
+        width: 215px;
+    }
+
+    .footer__left{
+        width: 250px;
+    }
+
+    .date__time{
+        font-size: 20px;
+    }
+
+    .adres__container{
+        margin-bottom: 26px;
+    }
+
+    .adres__logo{
+        width: 36px;
+    }
+
+    .adres{
+        font-size: 21px;
+    }
+
+    .email__container{
+        margin-bottom: 26px;
+    }
+    
+    .email__logo{
+        width: 36px;
+    }
+    
+    .email{
+        font-size: 21px;
+    }
+    
+    .number__container{
+        margin-bottom: 26px;
+    }
+    
+    .number__logo{
+        width: 36px;
+    }
+    
+    .number{
+        font-size: 21px;
+    }
+
+    .telegram{
+        width: 40px;
+    }
+    
+    .VK{
+        width: 35px;
+        margin-left: 15px
+    }
+    
+    .whatsapp{
+        width: 35px;
+        margin-left: 15px;
+    }
+}
+
+@media (max-width: 960px) {
+  .footer {
+    padding: 30px 40px;
+  }
+
+  .footer__logo {
+    width: 70px;
+    margin-bottom: 15px;
+  }
+
+  .footer__info {
+    gap: 80px;
+  }
+
+  .footer__title {
+    font-size: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+
+  .footer__left {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .date__time,
+  .adres,
+  .email,
+  .number {
+    font-size: 18px;
+  }
+
+  .adres__container,
+  .email__container,
+  .number__container {
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+
+  .adres__logo,
+  .email__logo,
+  .number__logo {
+    width: 30px;
+  }
+
+  .telegram {
+    width: 35px;
+  }
+
+  .VK,
+  .whatsapp {
+    width: 30px;
+    margin-left: 12px;
+  }
+
+  .footer__right {
+    width: 100%;
+  }
+}
+
+@media (max-width: 760px) {
+  .footer {
+    padding: 25px 30px;
+  }
+
+  .footer__logo {
+    width: 60px;
+    margin-bottom: 12px;
+  }
+
+  .footer__info {
+    gap: 50px;
+  }
+
+  .footer__title {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+
+  .footer__left,
+  .footer__right {
+    width: 100%;
+  }
+
+  .footer__left {
+    margin-bottom: 20px;
+  }
+
+  .date__time,
+  .adres,
+  .email,
+  .number {
+    font-size: 16px;
+  }
+
+  .adres__container,
+  .email__container,
+  .number__container {
+    gap: 8px;
+    margin-bottom: 15px;
+  }
+
+  .adres__logo,
+  .email__logo,
+  .number__logo {
+    width: 25px;
+  }
+
+  .telegram {
+    width: 30px;
+  }
+
+  .VK,
+  .whatsapp {
+    width: 25px;
+    margin-left: 10px;
+  }
+}
+
+@media (max-width: 610px) {
+  .footer {
+    padding: 20px 15px;
+  }
+
+  .footer__logo {
+    width: 50px;
+    margin-bottom: 10px;
+  }
+
+  .footer__info {
+    gap: 30px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer__title {
+    font-size: 16px;
+    margin-bottom: 12px;
+    text-align: center; 
+  }
+
+  .footer__left {
+    margin-bottom: 15px;
+  }
+
+  .date__time,
+  .adres,
+  .email,
+  .number {
+    font-size: 14px;
+    margin-bottom: 12px;
+  }
+
+  .adres__container,
+  .email__container,
+  .number__container {
+    gap: 6px;
+    margin-bottom: 12px;
+    align-items: flex-start;
+  }
+
+
+  .adres__logo,
+  .email__logo,
+  .number__logo {
+    width: 22px;
+    min-width: 22px;
+  }
+
+  .telegram {
+    width: 28px;
+  }
+
+  .VK,
+  .whatsapp {
+    width: 24px;
+    margin-left: 8px;
+  }
+
+  .footer__left-info{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+  }
+
+  .footer__right-info{
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 468px) {
+  .footer {
+    padding: 15px 10px;
+  }
+
+  .footer__logo {
+    width: 45px;
+    margin-bottom: 8px;
+  }
+
+  .footer__info {
+    gap: 20px;
+  }
+
+  .footer__title {
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+
+  .footer__left {
+    margin-bottom: 12px;
+    width: 100%;
+  }
+
+  .date__time,
+  .adres,
+  .email,
+  .number {
+    font-size: 13px;
+    margin-bottom: 10px;
+    line-height: 1.4;
+  }
+
+  .adres__container,
+  .email__container,
+  .number__container {
+    gap: 5px;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+  }
+
+  .adres__logo,
+  .email__logo,
+  .number__logo {
+    width: 20px;
+    min-width: 20px;
+  }
+
+  .telegram {
+    width: 26px;
+  }
+
+  .VK,
+  .whatsapp {
+    width: 22px;
+    margin-left: 6px;
+  }
+
+  .footer__left-info,
+  .footer__right-info {
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+  }
+}
+
+@media (max-width: 375px) {
+  .footer {
+    padding: 12px 8px;
+  }
+
+  .footer__logo {
+    width: 40px;
+    margin-bottom: 6px;
+  }
+
+  .footer__info {
+    gap: 15px;
+  }
+
+  .footer__title {
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+
+  .footer__left {
+    margin-bottom: 10px;
+  }
+
+  .date__time,
+  .adres,
+  .email,
+  .number {
+    font-size: 12px;
+    margin-bottom: 8px;
+    line-height: 1.35;
+  }
+
+  .adres__container,
+  .email__container,
+  .number__container {
+    gap: 4px;
+    margin-bottom: 8px;
+    align-items: center;
+  }
+
+  .adres__logo,
+  .email__logo,
+  .number__logo {
+    width: 18px;
+    min-width: 18px;
+    height: 18px;
+  }
+
+  .telegram {
+    width: 24px;
+  }
+
+  .VK,
+  .whatsapp {
+    width: 20px;
+    margin-left: 5px;
+  }
+
+  .footer__left-info,
+  .footer__right-info {
+    gap: 6px;
+  }
+}
