@@ -329,6 +329,10 @@
         padding: 3px 6px;
         margin-left: 35px;
     }
+
+    .swiper__slide{
+        width: 85px;
+    }
 }
 
 @media (max-width: 375px){
