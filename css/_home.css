@@ -1,4 +1,4 @@
-    .body {
+.body {
     font-family: 'Montserrat', sans-serif;
     background-attachment: fixed;
     margin: 0;
@@ -10,7 +10,7 @@ html {
 }
 
 .home__container{
-    background-image: url(../images/fon/fon__home.png);
+    background-image: url(../images/fon/fon__home.webp);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -56,8 +56,6 @@ html {
 .icons__foto{
     width: 60px;
 }
-
-
 
 @media (max-width: 1200px) {
     .home__title {

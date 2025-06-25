@@ -11,7 +11,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: url(../images/fon/fon__services.png);
+    background-image: url(../images/fon/fon__services.webp);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -30,8 +30,7 @@
 
 .services__swiper {
   position: relative;
-  display: flex;
-  gap: 15px;
+
 }
 
 .swiper__foto{
@@ -328,10 +327,6 @@
         bottom: 20px;
         padding: 3px 6px;
         margin-left: 35px;
-    }
-
-    .swiper__slide{
-        width: 85px;
     }
 }
 
